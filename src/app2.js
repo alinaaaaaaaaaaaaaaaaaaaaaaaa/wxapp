@@ -69,7 +69,7 @@ componentDidMount(){
 
 render(){
     return<div>
-        <form><form.Input></form.input></form>
+
         <Form>
            <Form.Input onChange={this.onUpdateCity} Iabel='city' placeholder='Name you city!!!'></Form.Input>
            <Button onClick={this.submit}> get weahter </Button>
@@ -79,4 +79,5 @@ render(){
 
 
 }
+
 export default App;
